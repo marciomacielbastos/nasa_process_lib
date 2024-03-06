@@ -3,9 +3,9 @@ requires = ["setuptools>=40.9.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bluebellutils"
+name = "nasa_process_lib"
 version = "0.1.0"
-authors = [{name = "Marcio Bastos", email = "marcio.bastos@bluebellindex.com"}]
+authors = [{name = "Marcio Bastos", email = "marciomacielbastos@hotmail.com"}]
 description = "A utility library for various client interfaces and utilities"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -16,13 +16,13 @@ classifiers = [
 ]
 requires-python = ">=3.6"
 dependencies = [
-    "azure-storage-blob",
-    "redis",
+    "earthaccess",
+    "osgeo",
     "requests",
-    "pika",
+    "rasterio",
     "injector"
 ]
 
 [project.urls]
-homepage = "https://gitlab.com/bluebell-index/bluebellutils"
+homepage = "https://github.com/marciomacielbastos/nasa_process_lib"
 
