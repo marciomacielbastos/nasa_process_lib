@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),  
     install_requires=[
         "earthaccess",
-        "osgeo",
+        "gdal",
         "requests",
         "rasterio",
         "injector"

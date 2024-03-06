@@ -17,7 +17,7 @@ classifiers = [
 requires-python = ">=3.10"
 dependencies = [
     "earthaccess",
-    "osgeo",
+    "gdal",
     "requests",
     "rasterio",
     "injector"
